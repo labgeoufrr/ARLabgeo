@@ -9,11 +9,12 @@
   </head>
   <body>
     <a-scene embedded arjs>
-      <a-marker preset="hiro">
-        <a-assets>
-          <a-asset-item id="mde" src="mdeTrairao.dae" material="color: #008800"></a-asset-item>
-        </a-assets>
+      
+      <a-assets>
+        <a-asset-item id="mde" src="mdeTrairao.dae" material="color: #008800"></a-asset-item>
+      </a-assets>
 
+      <a-marker preset="hiro">
         <a-collada-model src="#mde" scale="0.1 0.1 0.1"></a-model>
       </a-marker>
       
