@@ -11,11 +11,11 @@
     <a-scene embedded arjs>
       
       <a-assets>
-        <a-asset-item id="mde" src="mde.dae"></a-asset-item>
+        <a-asset-item id="mde" src="mde.obj"></a-asset-item>
       </a-assets>
 
       <a-marker preset="hiro">
-        <a-collada-model src="#mde" scale="0.1 0.1 0.1" rotation="-90 0 0"></a-model>
+        <a-object-model src="#mde" scale="0.1 0.1 0.1" rotation="-90 0 0"></a-model>
       </a-marker>
       
       <a-entity camera></a-entity>
